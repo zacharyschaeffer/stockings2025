@@ -127,6 +127,42 @@ nav .nav-links a:hover {
   border-radius: 10px;
 }
 
+.card-image-4 {
+  background: url('../images/cat.jpg') no-repeat center center/cover;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-image-5 {
+  background: url('../images/pig.jpg') no-repeat center center/cover;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-image-6 {
+  background: url('../images/kevin.jpg') no-repeat center center/cover;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;
+}
+
 /* Footer */
 footer {
   text-align: center;
