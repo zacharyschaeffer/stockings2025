@@ -84,6 +84,49 @@ nav .nav-links a:hover {
   text-align: center;
 }
 
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 1rem;
+}
+
+.card-image-1 {
+  background: url('../images/muppet.jpg') no-repeat center center/cover;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-image-2 {
+  background: url('../images/person.jpg') no-repeat center center/cover;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-image-3 {
+  background: url('../images/butterfly.jpg') no-repeat center center/cover;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -91,4 +134,20 @@ footer {
   background: #333;
   color: white;
   margin-top: 2rem;
+}
+
+
+.btn.go-back {
+  display: inline-block;
+  background-color: #ddd;
+  color: #333;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn.go-back:hover {
+  background-color: #ccc;
 }
